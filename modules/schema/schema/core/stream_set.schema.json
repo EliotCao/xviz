@@ -56,6 +56,19 @@
       "additionalProperties": {
         "$ref": "https://xviz.org/schema/core/annotation_state.json"
       }
+    },
+    "no_data_streams": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "additionalItems": false
+    },
+    "links": {
+      "type": "object",
+      "additionalProperties": {
+        "$ref": "https://xviz.org/schema/core/link_state.json"
+      }
     }
   },
   "required": [
